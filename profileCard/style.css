@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #051321;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 40rem;
+  background-color: #ddd;
+}
+.card-bio {
+  position: relative;
+  background-color: #458564;
+  padding: 3rem 3rem 8rem 3rem;
+  display: flex;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.card-btn {
+  position: absolute;
+  bottom: -2.5rem;
+  right: 10rem;
+  width: 20rem;
+  height: 6rem;
+  background-color: #2b303a;
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  font-family: "Dosis", "serif";
+  text-transform: uppercase;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.3);
+}
