@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(167, 216, 157);
+}
+
+.card-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: green;
+  width: 50%;
+  height: 5rem;
+  transform-origin: center;
+
+  border-radius: 5px;
+}
+
+.card:hover {
+  transform: scaleY(110%);
+  transform: rotate(5deg);
+  transition: transform 0.2s;
+}
